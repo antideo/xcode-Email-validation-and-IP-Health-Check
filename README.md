@@ -1,10 +1,18 @@
+![logo](http://antideo.com/ui/images/antideo-logo.png)
+
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/PanPanayotov/antideo-xcode/master/LICENSE)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 This is xcode framework created to help developers when using [Antideo's REST API](http://antideo.com). 
 Antideo helps locating IP adresses, performs reputation (health) checks on both IP and email addresses.
 
-Please consult this [API Documentation](http://antideo.com/documentation) for up to date information on endpoints.
+## Quick links
+* [Installation](#installation)
+* [IP info](#get-ip-info)
+* [IP location](#get-ip-location)
+* [IP health/reputation](#get-ip-health-result)
+* [Email info/reputation](#get-email-info)
+* [Helpers](#available-helper-methods)
 
 # Installation
 
