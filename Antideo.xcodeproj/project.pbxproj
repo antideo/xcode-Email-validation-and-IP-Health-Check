@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ADEBA221E4B36CA0043F088 /* Antideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEBA181E4B36C90043F088 /* Antideo.framework */; };
+		5ADEBA271E4B36CA0043F088 /* AntideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA261E4B36CA0043F088 /* AntideoTests.m */; };
+		5ADEBA291E4B36CA0043F088 /* Antideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA1B1E4B36C90043F088 /* Antideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADEBA371E4B37FF0043F088 /* AAHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA351E4B37FF0043F088 /* AAHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADEBA381E4B37FF0043F088 /* AAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA361E4B37FF0043F088 /* AAHelper.m */; };
+		5ADEBA3B1E4B38B50043F088 /* AAObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA391E4B38B50043F088 /* AAObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADEBA3C1E4B38B50043F088 /* AAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA3A1E4B38B50043F088 /* AAObject.m */; };
+		5ADEBA3F1E4B39CA0043F088 /* AAHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA3D1E4B39CA0043F088 /* AAHTTPRequest.h */; };
+		5ADEBA401E4B39CA0043F088 /* AAHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA3E1E4B39CA0043F088 /* AAHTTPRequest.m */; };
+		5ADEBA441E4B3A500043F088 /* AAAPIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA421E4B3A500043F088 /* AAAPIHelper.h */; };
+		5ADEBA451E4B3A500043F088 /* AAAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA431E4B3A500043F088 /* AAAPIHelper.m */; };
+		5ADEBA481E4B44D50043F088 /* IPHealthResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA461E4B44D50043F088 /* IPHealthResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADEBA491E4B44D50043F088 /* IPHealthResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA471E4B44D50043F088 /* IPHealthResult.m */; };
+		5ADEBA4C1E4B46720043F088 /* IPHealthRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA4A1E4B46720043F088 /* IPHealthRequest.h */; };
+		5ADEBA4D1E4B46720043F088 /* IPHealthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA4B1E4B46720043F088 /* IPHealthRequest.m */; };
+		5ADEBA501E4B555A0043F088 /* IPInfoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA4E1E4B555A0043F088 /* IPInfoResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADEBA511E4B555A0043F088 /* IPInfoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA4F1E4B555A0043F088 /* IPInfoResult.m */; };
+		5ADEBA541E4B556E0043F088 /* IPLocationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA521E4B556E0043F088 /* IPLocationResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADEBA551E4B556E0043F088 /* IPLocationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA531E4B556E0043F088 /* IPLocationResult.m */; };
+		5ADEBA581E4B55820043F088 /* EmailHealthResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA561E4B55820043F088 /* EmailHealthResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADEBA591E4B55820043F088 /* EmailHealthResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA571E4B55820043F088 /* EmailHealthResult.m */; };
+		5ADEBA5C1E4B56B90043F088 /* IPInfoRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA5A1E4B56B90043F088 /* IPInfoRequest.h */; };
+		5ADEBA5D1E4B56B90043F088 /* IPInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA5B1E4B56B90043F088 /* IPInfoRequest.m */; };
+		5ADEBA601E4B56C70043F088 /* IPLocationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA5E1E4B56C60043F088 /* IPLocationRequest.h */; };
+		5ADEBA611E4B56C70043F088 /* IPLocationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA5F1E4B56C70043F088 /* IPLocationRequest.m */; };
+		5ADEBA641E4B5A350043F088 /* EmailHealthRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA621E4B5A350043F088 /* EmailHealthRequest.h */; };
+		5ADEBA651E4B5A350043F088 /* EmailHealthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA631E4B5A350043F088 /* EmailHealthRequest.m */; };
+		5ADEBA681E4B609D0043F088 /* AAReportResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA661E4B609D0043F088 /* AAReportResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADEBA691E4B609D0043F088 /* AAReportResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA671E4B609D0043F088 /* AAReportResult.m */; };
+		5ADEBA6C1E4B61E20043F088 /* AAFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA6A1E4B61E20043F088 /* AAFormatter.h */; };
+		5ADEBA6D1E4B61E20043F088 /* AAFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA6B1E4B61E20043F088 /* AAFormatter.m */; };
+		5ADEBA701E4B63030043F088 /* AAProxyResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADEBA6E1E4B63030043F088 /* AAProxyResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADEBA711E4B63030043F088 /* AAProxyResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBA6F1E4B63030043F088 /* AAProxyResult.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ADEBA231E4B36CA0043F088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ADEBA0F1E4B36C90043F088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ADEBA171E4B36C90043F088;
+			remoteInfo = Antideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ADEBA181E4B36C90043F088 /* Antideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Antideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ADEBA1B1E4B36C90043F088 /* Antideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Antideo.h; sourceTree = "<group>"; };
+		5ADEBA1C1E4B36C90043F088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ADEBA211E4B36CA0043F088 /* AntideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ADEBA261E4B36CA0043F088 /* AntideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntideoTests.m; sourceTree = "<group>"; };
+		5ADEBA281E4B36CA0043F088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ADEBA351E4B37FF0043F088 /* AAHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAHelper.h; sourceTree = "<group>"; };
+		5ADEBA361E4B37FF0043F088 /* AAHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAHelper.m; sourceTree = "<group>"; };
+		5ADEBA391E4B38B50043F088 /* AAObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAObject.h; sourceTree = "<group>"; };
+		5ADEBA3A1E4B38B50043F088 /* AAObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAObject.m; sourceTree = "<group>"; };
+		5ADEBA3D1E4B39CA0043F088 /* AAHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAHTTPRequest.h; sourceTree = "<group>"; };
+		5ADEBA3E1E4B39CA0043F088 /* AAHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAHTTPRequest.m; sourceTree = "<group>"; };
+		5ADEBA421E4B3A500043F088 /* AAAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAPIHelper.h; sourceTree = "<group>"; };
+		5ADEBA431E4B3A500043F088 /* AAAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAPIHelper.m; sourceTree = "<group>"; };
+		5ADEBA461E4B44D50043F088 /* IPHealthResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPHealthResult.h; sourceTree = "<group>"; };
+		5ADEBA471E4B44D50043F088 /* IPHealthResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPHealthResult.m; sourceTree = "<group>"; };
+		5ADEBA4A1E4B46720043F088 /* IPHealthRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPHealthRequest.h; sourceTree = "<group>"; };
+		5ADEBA4B1E4B46720043F088 /* IPHealthRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPHealthRequest.m; sourceTree = "<group>"; };
+		5ADEBA4E1E4B555A0043F088 /* IPInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPInfoResult.h; sourceTree = "<group>"; };
+		5ADEBA4F1E4B555A0043F088 /* IPInfoResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPInfoResult.m; sourceTree = "<group>"; };
+		5ADEBA521E4B556E0043F088 /* IPLocationResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPLocationResult.h; sourceTree = "<group>"; };
+		5ADEBA531E4B556E0043F088 /* IPLocationResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPLocationResult.m; sourceTree = "<group>"; };
+		5ADEBA561E4B55820043F088 /* EmailHealthResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailHealthResult.h; sourceTree = "<group>"; };
+		5ADEBA571E4B55820043F088 /* EmailHealthResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailHealthResult.m; sourceTree = "<group>"; };
+		5ADEBA5A1E4B56B90043F088 /* IPInfoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPInfoRequest.h; sourceTree = "<group>"; };
+		5ADEBA5B1E4B56B90043F088 /* IPInfoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPInfoRequest.m; sourceTree = "<group>"; };
+		5ADEBA5E1E4B56C60043F088 /* IPLocationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPLocationRequest.h; sourceTree = "<group>"; };
+		5ADEBA5F1E4B56C70043F088 /* IPLocationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPLocationRequest.m; sourceTree = "<group>"; };
+		5ADEBA621E4B5A350043F088 /* EmailHealthRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailHealthRequest.h; sourceTree = "<group>"; };
+		5ADEBA631E4B5A350043F088 /* EmailHealthRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailHealthRequest.m; sourceTree = "<group>"; };
+		5ADEBA661E4B609D0043F088 /* AAReportResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAReportResult.h; sourceTree = "<group>"; };
+		5ADEBA671E4B609D0043F088 /* AAReportResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAReportResult.m; sourceTree = "<group>"; };
+		5ADEBA6A1E4B61E20043F088 /* AAFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAFormatter.h; sourceTree = "<group>"; };
+		5ADEBA6B1E4B61E20043F088 /* AAFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAFormatter.m; sourceTree = "<group>"; };
+		5ADEBA6E1E4B63030043F088 /* AAProxyResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAProxyResult.h; sourceTree = "<group>"; };
+		5ADEBA6F1E4B63030043F088 /* AAProxyResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAProxyResult.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ADEBA141E4B36C90043F088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADEBA1E1E4B36CA0043F088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADEBA221E4B36CA0043F088 /* Antideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ADEBA0E1E4B36C90043F088 = {
+			isa = PBXGroup;
+			children = (
+				5ADEBA1A1E4B36C90043F088 /* Antideo */,
+				5ADEBA251E4B36CA0043F088 /* AntideoTests */,
+				5ADEBA191E4B36C90043F088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ADEBA191E4B36C90043F088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ADEBA181E4B36C90043F088 /* Antideo.framework */,
+				5ADEBA211E4B36CA0043F088 /* AntideoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ADEBA1A1E4B36C90043F088 /* Antideo */ = {
+			isa = PBXGroup;
+			children = (
+				5ADEBA411E4B3A160043F088 /* Helpers */,
+				5ADEBA341E4B37550043F088 /* Response */,
+				5ADEBA331E4B374D0043F088 /* Request */,
+				5ADEBA321E4B37440043F088 /* Model */,
+				5ADEBA1B1E4B36C90043F088 /* Antideo.h */,
+				5ADEBA1C1E4B36C90043F088 /* Info.plist */,
+				5ADEBA351E4B37FF0043F088 /* AAHelper.h */,
+				5ADEBA361E4B37FF0043F088 /* AAHelper.m */,
+			);
+			path = Antideo;
+			sourceTree = "<group>";
+		};
+		5ADEBA251E4B36CA0043F088 /* AntideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ADEBA261E4B36CA0043F088 /* AntideoTests.m */,
+				5ADEBA281E4B36CA0043F088 /* Info.plist */,
+			);
+			path = AntideoTests;
+			sourceTree = "<group>";
+		};
+		5ADEBA321E4B37440043F088 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ADEBA391E4B38B50043F088 /* AAObject.h */,
+				5ADEBA3A1E4B38B50043F088 /* AAObject.m */,
+				5ADEBA661E4B609D0043F088 /* AAReportResult.h */,
+				5ADEBA671E4B609D0043F088 /* AAReportResult.m */,
+				5ADEBA6E1E4B63030043F088 /* AAProxyResult.h */,
+				5ADEBA6F1E4B63030043F088 /* AAProxyResult.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5ADEBA331E4B374D0043F088 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				5ADEBA3D1E4B39CA0043F088 /* AAHTTPRequest.h */,
+				5ADEBA3E1E4B39CA0043F088 /* AAHTTPRequest.m */,
+				5ADEBA4A1E4B46720043F088 /* IPHealthRequest.h */,
+				5ADEBA4B1E4B46720043F088 /* IPHealthRequest.m */,
+				5ADEBA5A1E4B56B90043F088 /* IPInfoRequest.h */,
+				5ADEBA5B1E4B56B90043F088 /* IPInfoRequest.m */,
+				5ADEBA5E1E4B56C60043F088 /* IPLocationRequest.h */,
+				5ADEBA5F1E4B56C70043F088 /* IPLocationRequest.m */,
+				5ADEBA621E4B5A350043F088 /* EmailHealthRequest.h */,
+				5ADEBA631E4B5A350043F088 /* EmailHealthRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		5ADEBA341E4B37550043F088 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				5ADEBA461E4B44D50043F088 /* IPHealthResult.h */,
+				5ADEBA471E4B44D50043F088 /* IPHealthResult.m */,
+				5ADEBA4E1E4B555A0043F088 /* IPInfoResult.h */,
+				5ADEBA4F1E4B555A0043F088 /* IPInfoResult.m */,
+				5ADEBA521E4B556E0043F088 /* IPLocationResult.h */,
+				5ADEBA531E4B556E0043F088 /* IPLocationResult.m */,
+				5ADEBA561E4B55820043F088 /* EmailHealthResult.h */,
+				5ADEBA571E4B55820043F088 /* EmailHealthResult.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+		5ADEBA411E4B3A160043F088 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5ADEBA421E4B3A500043F088 /* AAAPIHelper.h */,
+				5ADEBA431E4B3A500043F088 /* AAAPIHelper.m */,
+				5ADEBA6A1E4B61E20043F088 /* AAFormatter.h */,
+				5ADEBA6B1E4B61E20043F088 /* AAFormatter.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5ADEBA151E4B36C90043F088 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADEBA601E4B56C70043F088 /* IPLocationRequest.h in Headers */,
+				5ADEBA371E4B37FF0043F088 /* AAHelper.h in Headers */,
+				5ADEBA501E4B555A0043F088 /* IPInfoResult.h in Headers */,
+				5ADEBA701E4B63030043F088 /* AAProxyResult.h in Headers */,
+				5ADEBA581E4B55820043F088 /* EmailHealthResult.h in Headers */,
+				5ADEBA3B1E4B38B50043F088 /* AAObject.h in Headers */,
+				5ADEBA481E4B44D50043F088 /* IPHealthResult.h in Headers */,
+				5ADEBA541E4B556E0043F088 /* IPLocationResult.h in Headers */,
+				5ADEBA681E4B609D0043F088 /* AAReportResult.h in Headers */,
+				5ADEBA5C1E4B56B90043F088 /* IPInfoRequest.h in Headers */,
+				5ADEBA3F1E4B39CA0043F088 /* AAHTTPRequest.h in Headers */,
+				5ADEBA4C1E4B46720043F088 /* IPHealthRequest.h in Headers */,
+				5ADEBA441E4B3A500043F088 /* AAAPIHelper.h in Headers */,
+				5ADEBA641E4B5A350043F088 /* EmailHealthRequest.h in Headers */,
+				5ADEBA291E4B36CA0043F088 /* Antideo.h in Headers */,
+				5ADEBA6C1E4B61E20043F088 /* AAFormatter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5ADEBA171E4B36C90043F088 /* Antideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ADEBA2C1E4B36CA0043F088 /* Build configuration list for PBXNativeTarget "Antideo" */;
+			buildPhases = (
+				5ADEBA131E4B36C90043F088 /* Sources */,
+				5ADEBA141E4B36C90043F088 /* Frameworks */,
+				5ADEBA151E4B36C90043F088 /* Headers */,
+				5ADEBA161E4B36C90043F088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Antideo;
+			productName = Antideo;
+			productReference = 5ADEBA181E4B36C90043F088 /* Antideo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5ADEBA201E4B36CA0043F088 /* AntideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ADEBA2F1E4B36CA0043F088 /* Build configuration list for PBXNativeTarget "AntideoTests" */;
+			buildPhases = (
+				5ADEBA1D1E4B36CA0043F088 /* Sources */,
+				5ADEBA1E1E4B36CA0043F088 /* Frameworks */,
+				5ADEBA1F1E4B36CA0043F088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ADEBA241E4B36CA0043F088 /* PBXTargetDependency */,
+			);
+			name = AntideoTests;
+			productName = AntideoTests;
+			productReference = 5ADEBA211E4B36CA0043F088 /* AntideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ADEBA0F1E4B36C90043F088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Antideo;
+				TargetAttributes = {
+					5ADEBA171E4B36C90043F088 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5ADEBA201E4B36CA0043F088 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5ADEBA121E4B36C90043F088 /* Build configuration list for PBXProject "Antideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5ADEBA0E1E4B36C90043F088;
+			productRefGroup = 5ADEBA191E4B36C90043F088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ADEBA171E4B36C90043F088 /* Antideo */,
+				5ADEBA201E4B36CA0043F088 /* AntideoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ADEBA161E4B36C90043F088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADEBA1F1E4B36CA0043F088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ADEBA131E4B36C90043F088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADEBA451E4B3A500043F088 /* AAAPIHelper.m in Sources */,
+				5ADEBA3C1E4B38B50043F088 /* AAObject.m in Sources */,
+				5ADEBA591E4B55820043F088 /* EmailHealthResult.m in Sources */,
+				5ADEBA511E4B555A0043F088 /* IPInfoResult.m in Sources */,
+				5ADEBA711E4B63030043F088 /* AAProxyResult.m in Sources */,
+				5ADEBA381E4B37FF0043F088 /* AAHelper.m in Sources */,
+				5ADEBA491E4B44D50043F088 /* IPHealthResult.m in Sources */,
+				5ADEBA6D1E4B61E20043F088 /* AAFormatter.m in Sources */,
+				5ADEBA651E4B5A350043F088 /* EmailHealthRequest.m in Sources */,
+				5ADEBA5D1E4B56B90043F088 /* IPInfoRequest.m in Sources */,
+				5ADEBA611E4B56C70043F088 /* IPLocationRequest.m in Sources */,
+				5ADEBA4D1E4B46720043F088 /* IPHealthRequest.m in Sources */,
+				5ADEBA691E4B609D0043F088 /* AAReportResult.m in Sources */,
+				5ADEBA551E4B556E0043F088 /* IPLocationResult.m in Sources */,
+				5ADEBA401E4B39CA0043F088 /* AAHTTPRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADEBA1D1E4B36CA0043F088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADEBA271E4B36CA0043F088 /* AntideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ADEBA241E4B36CA0043F088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ADEBA171E4B36C90043F088 /* Antideo */;
+			targetProxy = 5ADEBA231E4B36CA0043F088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5ADEBA2A1E4B36CA0043F088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5ADEBA2B1E4B36CA0043F088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5ADEBA2D1E4B36CA0043F088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Antideo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antideo.framework.Antideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5ADEBA2E1E4B36CA0043F088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Antideo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antideo.framework.Antideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5ADEBA301E4B36CA0043F088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AntideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antideo.framework.AntideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ADEBA311E4B36CA0043F088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AntideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antideo.framework.AntideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ADEBA121E4B36C90043F088 /* Build configuration list for PBXProject "Antideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ADEBA2A1E4B36CA0043F088 /* Debug */,
+				5ADEBA2B1E4B36CA0043F088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ADEBA2C1E4B36CA0043F088 /* Build configuration list for PBXNativeTarget "Antideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ADEBA2D1E4B36CA0043F088 /* Debug */,
+				5ADEBA2E1E4B36CA0043F088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ADEBA2F1E4B36CA0043F088 /* Build configuration list for PBXNativeTarget "AntideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ADEBA301E4B36CA0043F088 /* Debug */,
+				5ADEBA311E4B36CA0043F088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ADEBA0F1E4B36C90043F088 /* Project object */;
+}
