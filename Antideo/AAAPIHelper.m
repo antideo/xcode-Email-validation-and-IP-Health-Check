@@ -82,6 +82,8 @@
             return NSLocalizedString(@"Method Not Allowed.", @"Antideo 405 error message");
         case 406:
             return NSLocalizedString(@"Not Acceptable.", @"Antideo 406 error message");
+        case 429:
+            return NSLocalizedString(@"Too many requests.", @"Antideo 429 error message");
         case 500:
             return NSLocalizedString(@"Internal Server Error.", @"Antideo 500 error message");
         case 501:
